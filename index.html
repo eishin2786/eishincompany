@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>永晋リフォーム | 清掃・内装工事・修繕</title>
-  <meta name="description" content="大阪を中心に清掃、内装リフォーム、原状回復、修繕工事を行う永晋リフォームの公式サイトです。" />
+  <title>RYO RENOVA | 良リノバ</title>
+  <meta name="description" content="大阪を中心に清掃、内装リフォーム、原状回復、修繕工事を行うRYO RENOVA（良リノバ）の公式サイトです。" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="top">
   <header class="site-header">
     <div class="container header-inner">
-      <div class="logo">永晋<span>リフォーム</span></div>
-      <nav>
+      <div class="logo">
+        <span class="logo-en">RYO RENOVA</span>
+        <span class="logo-ja">良リノバ</span>
+      </div>
+      <nav class="site-nav">
         <a href="#services">サービス</a>
         <a href="#works">施工内容</a>
         <a href="#flow">流れ</a>
         <a href="#company">会社概要</a>
         <a class="nav-button" href="#contact">お問い合わせ</a>
       </nav>
-      <button class="menu-button" aria-label="メニュー">☰</button>
+      <button class="menu-button" type="button" aria-label="メニュー">☰</button>
     </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div>
+        <div class="hero-copy">
           <p class="eyebrow">大阪・関西エリア対応</p>
+          <div class="hero-badges">
+            <span>内装工事</span>
+            <span>原状回復</span>
+            <span>住宅リフォーム</span>
+          </div>
           <h1>清掃から内装リフォームまで<br>住まいと店舗をきれいに整えます。</h1>
           <p class="hero-text">
             賃貸物件の原状回復、店舗改装、住宅の修繕、ハウスクリーニングまで、
@@ -36,16 +44,33 @@
             <a class="primary-button" href="#contact">無料相談する</a>
             <a class="secondary-button" href="#services">サービスを見る</a>
           </div>
+          <div class="hero-points">
+            <div><strong>住まい</strong><span>戸建て・マンション対応</span></div>
+            <div><strong>店舗</strong><span>改装・修繕・清掃対応</span></div>
+            <div><strong>相談</strong><span>見積り・ご相談無料</span></div>
+          </div>
         </div>
+
         <div class="hero-card">
-          <h2>対応工事</h2>
+          <p class="card-label">人気のご依頼内容</p>
+          <h2>住まいの困りごとをまとめて相談</h2>
           <ul>
             <li>クロス・床の張替え</li>
-            <li>水回り・設備修繕</li>
+            <li>キッチン・水回りの修繕</li>
             <li>店舗・住宅の内装工事</li>
             <li>退去後清掃・原状回復</li>
           </ul>
+          <p class="hero-card-note">現地確認からお見積り、施工完了まで丁寧にサポートします。</p>
         </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>住居・店舗対応</strong><span>住宅から事業用物件まで柔軟に対応</span></div>
+        <div class="trust-item"><strong>原状回復・清掃一括</strong><span>複数の作業をまとめてご相談可能</span></div>
+        <div class="trust-item"><strong>見積り無料</strong><span>現地確認後にわかりやすくご案内</span></div>
+        <div class="trust-item"><strong>関西エリア対応</strong><span>大阪を中心に近隣エリアもご相談ください</span></div>
       </div>
     </section>
 
@@ -55,17 +80,17 @@
         <h2>サービス内容</h2>
         <div class="cards">
           <article class="card">
-            <div class="icon">🏠</div>
+            <div class="icon">住</div>
             <h3>住宅リフォーム</h3>
             <p>壁紙、床、建具、設備交換など、住まいの状態に合わせて最適な修繕をご提案します。</p>
           </article>
           <article class="card">
-            <div class="icon">🏢</div>
+            <div class="icon">店</div>
             <h3>店舗・事務所内装</h3>
             <p>店舗オープン前の内装、レイアウト変更、部分改修など事業用物件にも対応します。</p>
           </article>
           <article class="card">
-            <div class="icon">🧹</div>
+            <div class="icon">清</div>
             <h3>清掃・原状回復</h3>
             <p>退去後清掃、空室清掃、簡易補修をまとめて行い、物件の印象を整えます。</p>
           </article>
@@ -73,8 +98,32 @@
       </div>
     </section>
 
+    <section class="section showcase">
+      <div class="container">
+        <p class="eyebrow">おすすめ対応内容</p>
+        <h2>住まいと店舗を整える主なご依頼</h2>
+        <div class="showcase-grid">
+          <article class="showcase-card showcase-a">
+            <span class="showcase-tag">住宅</span>
+            <h3>内装リフレッシュ</h3>
+            <p>クロス、床、建具などの交換・補修で、お部屋全体を明るく整えます。</p>
+          </article>
+          <article class="showcase-card showcase-b">
+            <span class="showcase-tag">店舗</span>
+            <h3>店舗・事務所の改装</h3>
+            <p>オープン前の内装、レイアウト変更、部分改修までご相談いただけます。</p>
+          </article>
+          <article class="showcase-card showcase-c">
+            <span class="showcase-tag">清掃</span>
+            <h3>退去後清掃・原状回復</h3>
+            <p>清掃から補修まで一括で対応し、次の入居・利用につながる空間を整えます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="works" class="section light">
-      <div class="container split">
+      <div class="container two-column works-layout">
         <div>
           <p class="eyebrow">施工内容</p>
           <h2>このようなお悩みに対応します</h2>
@@ -86,8 +135,8 @@
             <li>見積から施工までまとめて相談したい</li>
           </ul>
         </div>
-        <div class="image-box">
-          <div class="image-placeholder">施工前 → 施工後</div>
+        <div class="works-image-panel">
+          <div class="works-image-badge">Interior & Renovation</div>
         </div>
       </div>
     </section>
@@ -101,6 +150,35 @@
           <div class="flow-item"><span>02</span><h3>現地確認</h3><p>必要に応じて現地を確認し、工事範囲を整理します。</p></div>
           <div class="flow-item"><span>03</span><h3>お見積り</h3><p>作業内容と金額をご説明します。</p></div>
           <div class="flow-item"><span>04</span><h3>施工・完了</h3><p>丁寧に施工し、完了後に確認していただきます。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section strengths-section">
+      <div class="container">
+        <p class="eyebrow">選ばれる理由</p>
+        <h2>安心してご相談いただくために</h2>
+        <div class="strengths-grid">
+          <article class="strength-card">
+            <div class="strength-icon">01</div>
+            <h3>丁寧なヒアリング</h3>
+            <p>ご希望の内容、ご予算、施工時期を確認しながら最適な進め方をご提案します。</p>
+          </article>
+          <article class="strength-card">
+            <div class="strength-icon">02</div>
+            <h3>小さな修繕も対応</h3>
+            <p>壁や床の補修、水回り、建具など、気になる箇所のご相談にも対応します。</p>
+          </article>
+          <article class="strength-card">
+            <div class="strength-icon">03</div>
+            <h3>わかりやすいご案内</h3>
+            <p>施工内容や流れをできるだけわかりやすくお伝えし、安心して進められるよう心がけています。</p>
+          </article>
+          <article class="strength-card">
+            <div class="strength-icon">04</div>
+            <h3>施工後までサポート</h3>
+            <p>作業完了後の確認まで丁寧に対応し、きれいで使いやすい空間づくりを目指します。</p>
+          </article>
         </div>
       </div>
     </section>
@@ -126,24 +204,18 @@
           <h2>お問い合わせ</h2>
           <p>お見積りやご相談は、下記フォームまたはお電話にてお気軽にご連絡ください。</p>
           <p class="tel">電話：<a href="tel:07089992768">070-8999-2768</a></p>
+          <div class="contact-mini-box">メールでのお問い合わせ先：<strong>eishin2768@gmail.com</strong></div>
         </div>
-        <form>
-          <input type="text" placeholder="お名前" />
-          <input type="tel" placeholder="電話番号" />
-          <input type="email" placeholder="メールアドレス" />
-          <textarea placeholder="ご相談内容"></textarea>
-          <button type="button">送信する</button>
+        <form action="mailto:eishin2768@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="お名前" placeholder="お名前" />
+          <input type="tel" name="電話番号" placeholder="電話番号" />
+          <input type="email" name="メールアドレス" placeholder="メールアドレス" />
+          <textarea name="ご相談内容" placeholder="ご相談内容"></textarea>
+          <button type="submit">送信する</button>
         </form>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <p>© 2026 永晋リフォーム</p>
-      <a href="#top">ページ上部へ</a>
-    </div>
-  </footer>
 
   <script src="script.js"></script>
 </body>
