@@ -107,7 +107,7 @@ a {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(244, 239, 231, 0.90) 0%, rgba(244, 239, 231, 0.68) 42%, rgba(244, 239, 231, 0.18) 100%),
-    url("assets/hero-renovation.png");
+    url("./assets/hero-renovation.png");
   background-size: cover;
   background-position: center;
 }
@@ -536,7 +536,7 @@ button {
   box-shadow: 0 18px 46px rgba(67, 58, 38, 0.08);
   background:
     linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.24)),
-    url("assets/hero-renovation.png");
+    url("./assets/hero-renovation.png");
   background-size: cover;
   background-position: center;
 }
